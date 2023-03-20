@@ -18,6 +18,9 @@ char *decrement_lowers(char *original)
             result[i] = original[i];
         }
     }
+
+    char *original_order = "abcdefghijklmnopqrstuvwxyz";
+    char *new_order = "abcdefghijklmnopqrstuvwxyz";
     return result;
 }
 
