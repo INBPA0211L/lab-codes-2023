@@ -11,7 +11,7 @@ char *double_vowels(char *original)
     int j = 0;
     for (int i = 0; i < strlen(original) + 1; i++)
     {
-        // if(strchr(original[i], "aeiouAEIOU")) {
+        // if(strchr("aeiouAEIOU", original[i])) {
         // if(('a' <= original[i] && original[i] <= 'z') || ('A' <= original[i] && original[i] <= 'Z')) {
         // if (islower(original[i]) || isupper(original[i])) {
         if (strchr("aeiou", tolower(original[i])))
