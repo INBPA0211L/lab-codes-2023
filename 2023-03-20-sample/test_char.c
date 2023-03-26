@@ -20,7 +20,7 @@ int main() {
         puts(strchr("aeiou", tolower(line[i])) ?
                                     "vowel": "");
         if('a' <= line[i] && line[i] <= 'z') {
-            // kisbetű
+            // lowercase
         }
     }
 
