@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
         fprintf(stderr, "No output file was given.\n");
         return 3;
     }
-    FILE *fout = fopen(argv[3], "w");
+    FILE *fout = fopen(argv[2], "w");
     if (!fout)
     {
         fprintf(stderr, "Output file cannot be opened.\n");
